@@ -4,6 +4,7 @@ setwd("/Users/tshiro/Desktop/Projects/HGEOC/Github/JGOG_HGEOC/code/JGOG_C4_signa
 library(DESeq2)
 library(dbplyr)
 library(data.table)
+library(limma)
 library(edgeR)
 
 cts=fread('/Users/tshiro/Desktop/Projects/JGOG3025_HGS/JGOG3025_data/RNAseq/gene_expression_add/JGOG_HGS_RSEM_readcounts_renamed.txt.gz')
