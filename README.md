@@ -1,8 +1,8 @@
-# Molecular characterization of ovarian high-grade endometrioid carcinoma through multi-omics analysis: JGOG3025-TR2 study
-- This page provides codes and data to reproduce the results of the corresponding study and paper.
+# Discovery of ovarian high-grade endometrioid-type tumors through multi-omics analysis: JGOG3025-TR2 study
+- This page provides codes and data to reproduce the results of the corresponding paper.
 ___
 ## Environment
-Codes were tested in the following environment, using MacOS.  
+Codes were tested in MacOS.  
 ### Python 3.8.8
 - numpuy 1.20.3
 - pandas 1.3.4
@@ -24,6 +24,10 @@ ___
 - data
 - code
 - download
+___
+## Data availability
+Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA methylation arrays, are available at NCBI-GEO with the accsession of GSE******.  
+Targeted DNA sequencing and clinical information per sample are available upon reasonable request to Japanese Gynecological Oncology Group (info@jgog.gr.jp, https://jgog.gr.jp/en/index.html)  
 ___
 ## Citation
 ___
