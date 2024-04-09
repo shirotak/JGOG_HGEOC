@@ -1,5 +1,5 @@
 # combat_seq
-setwd('/Users/tshiro/Desktop/Projects/HGEOC/Github/JGOG_HGEOC/code/Machine_learning')
+setwd('/Users/tshiro/Desktop/Projects/HGEOC/Github/JGOG_HGEOC_20240404_dev/code/Machine_learning')
 
 library(sva)
 library(data.table)
@@ -11,6 +11,7 @@ in_df1=fread('./TCGA-OV_555_ascat_spmg.CNV48.matrix.tsv'
              ,data.table = F)
 row.names(in_df1)=in_df1[,1]
 in_df1=in_df1[,-1]
+in_df1=t(in_df1)
 
 in_df2=fread('../../data/JGOG_282_ascat_spmg.CNV48.matrix.txt'
              ,data.table = F)
@@ -18,8 +19,8 @@ row.names(in_df2)=in_df2[,1]
 in_df2=in_df2[,-1]
 in_df2=t(in_df2)
 
-out_df1="../TCGA_OV_555_ascat_spmg.CNV48.matrix.combat_to_JGOG.tsv"
-out_df2="../JGOG3025_282_ascat_spmg.CNV48.matrix.combat_to_TCGA-OV.tsv"
+out_df1="TCGA_OV_555_ascat_spmg.CNV48.matrix.combat_to_JGOG.tsv"
+out_df2="JGOG3025_282_ascat_spmg.CNV48.matrix.combat_to_TCGA-OV.tsv"
 
 count_matrix=as.matrix( cbind(in_df1,in_df2) )
 
@@ -36,15 +37,16 @@ write.table(dfw2,out_df2,sep='\t',quote = F,row.names = T,col.names = NA)
 ##############################################
 ### TCGA-OV+UCEC + JGOG
 ##############################################
-in_df3=fread('./TCGA-UCEC_176_ascat_spmg_CNV48.matrix.tsv'
+in_df3=fread('./TCGA-UCEC_287_ascat_spmg.CNV48.matrix.tsv'
              ,data.table = F)
 row.names(in_df3)=in_df3[,1]
 in_df3=in_df3[,-1]
 in_df3=t(in_df3)
 
 in_df13=cbind(in_df1,in_df3)
+dim(in_df13)
 
-out_df3="./TCGA-OV-UCEC_731_ascat_spmg_CNV48.matrix.combat_to_JGOG.tsv"
+out_df3="./TCGA-OV-UCEC_842_ascat_spmg_CNV48.matrix.combat_to_JGOG.tsv"
 out_df4="./JGOG_282_ascat_spmg.CNV48.matrix.combat_to_TCGA-OV-UCEC.tsv"
 
 count_matrix=as.matrix( cbind(in_df13,in_df2) )
