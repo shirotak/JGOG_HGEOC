@@ -26,9 +26,10 @@ ___
 - download
 ___
 ## Data availability
-Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA methylation arrays, are available at NCBI-GEO with the accsession of GSE******.  
+Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA methylation arrays, are available at NCBI-GEO with the accsession of [GSE263455](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263455).  
 Targeted DNA sequencing and clinical information per sample are available upon reasonable request to Japanese Gynecological Oncology Group (info@jgog.gr.jp, https://jgog.gr.jp/en/index.html)  
 ___
 ## Citation
+The corresponding paper is under submission.
 ___
 
