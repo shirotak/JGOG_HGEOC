@@ -1,4 +1,4 @@
-# Discovery of ovarian high-grade endometrioid-type tumors through multi-omics analysis: JGOG3025-TR2 study
+# Identification of ovarian high-grade endometrioid-type tumors through multi-omics analysis: JGOG3025-TR2 study
 - This page provides codes and data to reproduce the results of the corresponding paper.
 ___
 ## Environment
