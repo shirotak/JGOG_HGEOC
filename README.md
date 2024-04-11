@@ -2,7 +2,7 @@
 - This page provides codes and data to reproduce the results of the corresponding paper.
 ___
 ## Environment
-Codes were tested in MacOS.  
+All codes were tested on MacOS.  
 ### Python 3.8.8
 - numpuy 1.20.3
 - pandas 1.3.4
@@ -19,6 +19,7 @@ Codes were tested in MacOS.
 - DESeq2 1.34.0
 - limma 3.50.3
 - annotatr 1.20.0
+- karyoploteR 1.20.3
 ___
 ## Contents
 - data
@@ -26,7 +27,7 @@ ___
 - download
 ___
 ## Data availability
-Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA methylation arrays, are available at NCBI-GEO with the accsession of [GSE263455](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263455).  
+Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA methylation arrays, will be available in the NCBI-GEO with the accsession of [GSE263455](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263455).  
 Targeted DNA sequencing and clinical information per sample are available upon reasonable request to Japanese Gynecological Oncology Group (info@jgog.gr.jp, https://jgog.gr.jp/en/index.html)  
 ___
 ## Citation
