@@ -1,5 +1,6 @@
-# Identification of ovarian high-grade endometrioid-type tumors through multi-omics analysis: JGOG3025-TR2 study
+# Molecular classification of ovarian high-grade serous/endometrioid carcinomas through multi-omics analysis: JGOG3025-TR2 study
 - This page provides codes and data to reproduce the results of the corresponding paper.
+- Title at preprint: Identification of ovarian high-grade endometrioid-type tumors through multi-omics analysis: JGOG3025-TR2 study
 ___
 ## Environment
 All codes were tested on MacOS.  
@@ -31,6 +32,10 @@ Genomic data for the JGOG3025-TR2 cohort, including SNP arrays, RNA-seq, and DNA
 Targeted DNA sequencing and clinical information per sample are available upon reasonable request to Japanese Gynecological Oncology Group (info@jgog.gr.jp, https://jgog.gr.jp/en/index.html)  
 ___
 ## Citation
-The corresponding paper is under submission.
+Molecular classification of ovarian high-grade serous/endometrioid carcinomas through multi-omics analysis: JGOG3025-TR2 study  
+Shiro Takamatsu, R. Tyler Hillman, Kosuke Yoshihara, Tsukasa Baba, Muneaki Shimada, Hiroshi Yoshida, Hiroaki Kajiyama, Katsutoshi Oda, Masaki Mandai, Aikou Okamoto, Takayuki Enomoto, Noriomi Matsumura  
+British Journal of Cancer (2024)  
+DOI: https://doi.org/10.1038/s41416-024-02837-x  
+PMID:*****
 ___
 
