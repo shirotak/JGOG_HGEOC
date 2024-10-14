@@ -36,6 +36,6 @@ Molecular classification of ovarian high-grade serous/endometrioid carcinomas th
 Shiro Takamatsu, R. Tyler Hillman, Kosuke Yoshihara, Tsukasa Baba, Muneaki Shimada, Hiroshi Yoshida, Hiroaki Kajiyama, Katsutoshi Oda, Masaki Mandai, Aikou Okamoto, Takayuki Enomoto, Noriomi Matsumura  
 British Journal of Cancer (2024)  
 DOI: https://doi.org/10.1038/s41416-024-02837-x  
-PMID:*****
+PMID: 39215190
 ___
 
